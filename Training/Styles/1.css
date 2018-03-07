@@ -1,0 +1,48 @@
+input
+{
+	display: block;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+div
+{
+	width: 100%;
+	position: absolute;
+	top:100px;
+	left:530px;
+}
+
+body
+{
+	background-color: black;
+	width: 100%;
+
+}
+
+label
+{
+	color: white;
+	position: relative;	
+	bottom: -3px;
+	padding: 10px;
+}
+
+#btnSubmit,#btnLogin
+{
+	position: relative;
+	left: 50px;
+}
+
+h1
+{
+	color: white;
+}
+
+a
+{
+	color: blue;
+	position: relative;
+	left: 15px;
+	text-decoration: none;
+}

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	
+	<title>
+		Registration form
+	</title>
+
+	<link rel="shortcut icon" href="E:\New folder\training 1\Sample html\Images\Register.ico" />
+
+	<link rel="stylesheet" type="text/css" href="Styles/1.css">
+
+</head>
+
+<body>
+
+	<div>
+
+
+<form method="get" action="http://192.168.10.131/User/" >
+
+<h1>Registration</h1>
+
+<label>
+	FirstName
+</label> 
+
+<input type="text" id="FirstName" placeholder=" Enter your FirstName" pattern="[A-Za-z]*" maxlength="10" required/>
+
+<label>
+	LastName
+</label>
+
+<input type="text" id="txtLname" placeholder=" Enter your LastName"  pattern="[A-Za-z]*" maxlength="10" required/>
+
+<label>
+	Email ID
+</label>
+
+<input type="email" id="emailID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter your  EmailID" required>
+
+<label>
+	Upload Photo
+</label>
+
+<input type="file" id="imgUploader" accept="image/*" required>
+
+<input type ="submit" id="btnSubmit" value="Register"> 
+<a href="AdminLogin.html">Go to Admin Login</a> 
+
+</form>
+
+</div>
+
+</body>
+</html>

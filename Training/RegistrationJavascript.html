@@ -1,0 +1,60 @@
+<html>
+
+<head>
+	
+	<title>
+		Registration form
+	</title>
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+			  
+	<script src="JavaScript.js"></script> 
+
+	<link rel="stylesheet" type="text/css" href="Styles/1.css">
+
+</head>
+
+<body>
+
+	<div>
+
+
+<form method="post" action="http://192.168.10.131/User/" enctype="multipart/form-data">
+
+<h1>Registration</h1>
+
+<label>
+	FirstName
+</label> 
+
+<input type="text" id="fname" name="fname" placeholder=" Enter your FirstName"/>
+
+<label>
+	LastName
+</label>
+
+<input type="text" id="lname" name ="lname" placeholder=" Enter your LastName" />
+
+<label>
+	Email ID
+</label>
+
+<input type="email" id="ema" name="email" />
+
+<label>
+	Upload Photo
+</label>
+
+<<input type="file" id="upload" name ="upload" onchange="return fileValidation()"/>
+
+<input type ="submit" id="btnSubmit" value="Register" onclick="Validate()"> 
+<a href="AdminLogin.html">Go to Admin Login</a> 
+
+</form>
+
+</div>
+
+</body>
+</html>
